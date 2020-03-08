@@ -37,7 +37,7 @@ void main(int argc, char* argv[])
 
 			}
 			double sum = num1 + num2;
-			printf("Result: %.0f \n", sum);
+			printf("Result: %.4f \n", sum);
 
 		}
 		else if (input == 2)
@@ -55,7 +55,7 @@ void main(int argc, char* argv[])
 
 			}
 			double sum = num1 - num2;
-			printf("Result: %.0f \n", sum);
+			printf("Result: %.3f \n", sum);
 
 		}
 		else if (input == 3)
@@ -91,7 +91,7 @@ void main(int argc, char* argv[])
 
 			}
 			double sum = num1 * num2;
-			printf("Result: %.0f \n", sum);
+			printf("Result: %.4f \n", sum);
 
 		}
 		else if (input == 5)
@@ -109,7 +109,7 @@ void main(int argc, char* argv[])
 
 			}
 			double sum = pow(num1, num2);
-			printf("Result: %.0f \n", sum);
+			printf("Result: %.3f \n", sum);
 
 		}
 		else if (input == 6)
